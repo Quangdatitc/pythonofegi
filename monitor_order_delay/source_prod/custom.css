@@ -1,0 +1,15 @@
+/* Increase the width and height of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    width: 50px;
+    height: 80px;
+}
+
+/* Change the color of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: #ff5733; /* Change this to the desired color */
+}
+
+/* Set the width of the text area */
+.custom-text-area {
+    width: 2px; /* Change this to the desired width */
+}
