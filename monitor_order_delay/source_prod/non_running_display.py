@@ -10,3 +10,4 @@ def nonjobhour_display_msg():
     minutes, sec = divmod(remainder, 60)
     display_msg = f"営業開始まで: {int(hours)} 時間 {int(minutes)} 分 {round(sec)} 秒　残り"
     return f"<h1 style='text-align: center;color: gray;font-size: 70px;margin-top: 30%;transform: translateY(-50%);'>{display_msg}</h1>"
+    print(current_datetime)
